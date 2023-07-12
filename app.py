@@ -81,7 +81,7 @@ try:
             date = datetime.now()
             key = 'Quy2ffdNffhOiGGVIhxlpGwGkk7nhij0'
             layer = 'Outdoor_3857'
-            zxy_path = 'https://api.os.uk/maps/raster/v1/zxy/{}/{{z}}/{{x}}/{{y}}.png?key={}'.format(layer, key)
+            zxy_path = 'https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{{z}}/{{x}}/{{y}}.png?key={}'.format(layer, key)
     #print('=> Constructed OS Maps ZXY API path: {}'.format(zxy_path))
         # create map
             m = folium.Map(location=[df['Latitude'][0], df['Longitude'][0]],
