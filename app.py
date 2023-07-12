@@ -79,7 +79,7 @@ try:
             # API for OS
             #key = st.secrets["key"]
             date = datetime.now()
-            key = '7mzGvy71yP6363qSVpAooF8AK8AEEPdX'
+            key = 'Quy2ffdNffhOiGGVIhxlpGwGkk7nhij0'
             layer = 'Outdoor_3857'
             zxy_path = 'https://api.os.uk/maps/raster/v1/zxy/{}/{{z}}/{{x}}/{{y}}.png?key={}'.format(layer, key)
     #print('=> Constructed OS Maps ZXY API path: {}'.format(zxy_path))
