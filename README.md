@@ -17,6 +17,7 @@ The streamlit application is available on [streamlit.io](https://postcode-lookup
 Please note:
 - The Streamlit app version may need to be updated if the app is redeployed. See latest version on Streamlit website. (2023/07/14)
 - The request app version was updated to increase security (2023/07/17)
+
 Please use the [requirements.txt](https://github.com/beckjef/Postcode-lookup/blob/main/requirements.txt) file to install the dependencies
 
 ### License
